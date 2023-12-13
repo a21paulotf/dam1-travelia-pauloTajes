@@ -6,69 +6,112 @@ html{
 
 header{
     background-color: #f42d59;
-    font-family: '';
+    font-family: 'Ephesis';
+    font-size: 2.5em;
+    color: #fff;
 }
 
 body{
     background:#d9d9d9;
     height: 100%;
     font-family: 'Heebo';
-}
-main div{
-    background-color: #fff;
-    height: 100px;
-    width: 200px;
-    padding-bottom: 200px;
+    color: #000;
 }
 
-div p{
-    margin: 25px;
+.mountain{
+    width: 1890px;
+}
+
+main div{
+    background-color: #fff;
+    max-width: 200px;
+    max-height: 370px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 div h3{
-    text-align: center;
     font-weight: bold;
 }
 
-main{
+main:first-of-type{
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-}
-
-input, textarea{
-    margin-bottom: 20px;
 }
 
 input:last-of-type{
     color: #fff;
     background-color: #f42d59;
     border: 0;
-    width: 100px;
-    height: 20px;
+    width: 242px;
+    height: 25px;
+}
+
+input:hover:last-of-type{
+    color: #f42d59;
+    background-color: #d9d9d9;
+    border: 0;
+    width: 242px;
+    height: 25px;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+}
+
+form{
+    margin-left: 55px;
+}
+
+.boldGender{
+    font-weight: bold;
 }
 
 div img{
     width: 50px;
     border-radius: 50%;
     padding: 15px;
+    max-width: 60px;
 }
 
-div{
+div:last-of-type{
     background-color: #fff;
-    width: 300px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 footer{
     background-color: #f42d59;
     color: #fff;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 20px;
 }
 
 footer img{
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
     margin-top: 20px;
     padding: 8px;
+}
+
+footer a:last-of-type{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover:last-of-type{
+    color: #d9d9d9;
+    text-decoration: none;
 }
